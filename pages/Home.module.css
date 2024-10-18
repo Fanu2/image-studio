@@ -1,0 +1,35 @@
+.container {
+  text-align: center;  /* Center text within the container */
+  padding: 20px;       /* Add padding around the container */
+}
+
+.controls {
+  margin-bottom: 20px; /* Space between controls and canvas */
+}
+
+.fileInput,
+.textInput,
+.rangeInput,
+.numberInput,
+.colorInput {
+  margin: 10px; /* Margin for spacing between input elements */
+}
+
+.canvas {
+  width: 1200px; /* Specify the width of the canvas */
+  height: 1600px; /* Specify the height of the canvas */
+  border: 1px solid #ccc; /* Border for the canvas */
+  position: relative; /* Allow absolutely positioned children */
+  margin: 0 auto; /* Center canvas horizontally */
+  overflow: hidden; /* Prevent overflow of content */
+  transform-origin: top left; /* Ensure zoom works from the top-left */
+}
+
+.overlayImage {
+  pointer-events: none; /* Disable interactions with the overlay image */
+}
+
+.textOverlay {
+  pointer-events: none; /* Disable interactions with the text overlay */
+  /* Consider applying styles if you're using this class */
+}

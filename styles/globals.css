@@ -1,0 +1,10 @@
+/* styles/globals.css */
+.react-resizable-handle {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 10px;
+  height: 10px;
+  background-color: blue;
+  cursor: se-resize; /* Changes cursor to indicate resizing action */
+}
