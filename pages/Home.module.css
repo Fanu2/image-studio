@@ -16,7 +16,7 @@
 }
 
 .canvas {
-  width: 1200px; /* Specify the width of the canvas */
+  width: 1400px; /* Specify the width of the canvas */
   height: 1600px; /* Specify the height of the canvas */
   border: 1px solid #ccc; /* Border for the canvas */
   position: relative; /* Allow absolutely positioned children */
